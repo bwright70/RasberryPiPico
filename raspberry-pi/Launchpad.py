@@ -3,19 +3,23 @@ import board
 import digitalio
 import time 
 
-led = digitalio.DigitalInOut(board.LED)
-led.direction = digitalio.Direction.OUTPUT
-Counter = 10 
+redled = digitalio.DigitalInOut(board.GP16)
+redled.direction = digitalio.Direction.OUTPUT
+greenled = digitalio.DigitalInOut(board.GP2)
+greenled.direction = digitalio.Direction.OUTPUT
+Counter = 10
 
-while True: 
-    if Counter > 0: 
-        Counter -= Counter 
-        led.value = True
+for x in range(10): 
+        Counter -= 1
+        redled.value = True
         print(Counter)
-        time.sleep(2)
-        led.value = False
-        time.sleep(2)
- 
+        time.sleep(1)
+        redled.value = False
+        time.sleep(1)
+redled.value = False
+greenled.value = True
+print("Launch")
+
 
 
     
