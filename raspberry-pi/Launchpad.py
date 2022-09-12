@@ -16,33 +16,38 @@ button.pull = digitalio.Pull.DOWN
 button.direction = digitalio.Direction.INPUT   
 pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle=2 ** 15, frequency=50)
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
-Counter = 10
 greenled.value = False
 redled.value = False 
-servo1.angle = 0 
 servocounter = 0 
 
 while True: 
-        servo1.angle = 0 
+        Counter = 10
+        servocounter = 0 
+        servo1.angle = servocounter 
         if button.value == True: 
                 print("Button Works")
         if button.value == True: 
                 time.sleep(1)
-                for x in range(10): 
-                        Counter -= 1
-                        if Counter == 3
-                                BeginServo() 
-                        redled.value = True
-                        print(Counter)
-                        if button.value == True: 
-                                Abort() 
-                        time.sleep(0.5)
-                        redled.value = False
-                        if button.value == True: 
-                                Abort() 
-                        time.sleep(0.5)
-                        if button.value == True: 
-                                Abort() 
+                for x in range(37): 
+                        if Counter > 3:
+                                Counter -= 1
+                                print(Counter)
+                                redled.value = True
+                                if button.value == True: 
+                                        Abort() 
+                                time.sleep(0.5)
+                                redled.value = False
+                                if button.value == True: 
+                                        Abort() 
+                                time.sleep(0.5)
+                        else: 
+                                servocounter =+ 6 
+                                servo1.angle = servocounter
+                                if servocounter < 60: 
+                                        redled.value = True 
+                                        Counter = 2
+                                        print(Counter)
+
                 Counter = 10 
                 redled.value = False
                 greenled.value = True
@@ -59,12 +64,6 @@ while True:
                         redled.value = False 
                         time.sleep(0.1)
                 sys.exit("ABORT") 
-        def BeginServo(): 
-                print("Servo")
-                if servocounter < 60: 
-                        servo1.angle = servocounter 
-                        servocounter =+ 1 
-                if servocounter > 60 and servocounter < 120:  
 
 
                 
