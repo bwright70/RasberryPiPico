@@ -18,6 +18,10 @@ The goal was to get a make a count down when you ran the code. The Countdown sta
 
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+
 ### Code
 
 ```
@@ -60,6 +64,10 @@ Now We add in an Led to the previous assignment. A Red led blinks with the count
 ### Evidence 
 
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
 
@@ -104,6 +112,9 @@ We continue to build on the previous two assignments now with the introduction o
 ### Evidence 
 
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
 
@@ -173,6 +184,10 @@ The final assignment is adding a servo that spins from 0 - 180 at launch. For ex
 ### Evidence 
 
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+
+### Wiring
+
+This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
 ```
