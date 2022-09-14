@@ -28,7 +28,7 @@ while True:
                 print("Button Works")
         if button.value == True: 
                 time.sleep(1)
-                for x in range(37): 
+                for x in range(97): 
                         if Counter > 3:
                                 Counter -= 1
                                 print(Counter)
@@ -41,18 +41,23 @@ while True:
                                         Abort() 
                                 time.sleep(0.5)
                         else: 
-                                servocounter =+ 6 
-                                servo1.angle = servocounter
-                                if servocounter < 60: 
+                                if servocounter == 0: 
                                         redled.value = True 
                                         Counter = 2
                                         print(Counter)
-
-                Counter = 10 
-                redled.value = False
-                greenled.value = True
-                servo1.angle = 180
-                print("Launch")
+                                if servocounter == 44:
+                                        redled.value = False 
+                                if servocounter == 90:
+                                        redled.value = True  
+                                        Counter = 1
+                                        print(Counter)
+                                if servocounter == 134:
+                                        redled.value = False  
+                                if servocounter == 178:
+                                        greenled.value = True
+                                        print("Launch") 
+                                servocounter = servocounter + 2
+                                servo1.angle = servocounter
                 time.sleep(3)
                 greenled.value = False 
                 servo1.angle = 0
