@@ -50,19 +50,3 @@ Take a nice screenshot of your Onshape document.
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
-
-## Media Test
-
-Your readme will have various images and gifs on it. Upload a test image and test gif to make sure you've got the process figured out. Pick whatever image and gif you want!
-
-### Test Link
-
-[Github](https://github.com/bwright70/RasberryPiPico)
-
-### Test Image
-
-![Communist M&M](images/63642b1f0a83a9d81756a4e99a5af00c.jpg) 
-
-### Test GIF
-
-![M&M](images/m-and-ms-mm.gif)
