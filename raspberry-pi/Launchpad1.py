@@ -7,6 +7,7 @@ led = digitalio.DigitalInOut(board.LED)
 led.direction = digitalio.Direction.OUTPUT
 Counter = 10 
 
+
 while True: 
     if Counter > 0: 
         Counter -= Counter 
