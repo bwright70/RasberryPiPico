@@ -19,7 +19,31 @@ The goal was to get a make a count down when you ran the code. The Countdown sta
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+```
+# type: ignore
+import digitalio
+import time 
+
+redled = digitalio.DigitalInOut(board.GP16)
+redled.direction = digitalio.Direction.OUTPUT
+greenled = digitalio.DigitalInOut(board.GP2)
+greenled.direction = digitalio.Direction.OUTPUT
+Counter = 10
+
+# Loops 10 times
+for x in range(10): 
+        Counter -= 1
+        redled.value = True
+        print(Counter)
+        time.sleep(1)
+        redled.value = False
+        time.sleep(1)
+# After turns green led on and prints "Launch"
+redled.value = False
+greenled.value = True
+print("Launch")
+```
 
 ### Reflection
 
@@ -38,7 +62,32 @@ Now We add in an Led to the previous assignment. A Red led blinks with the count
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
 ### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+
+```
+# type: ignore
+import digitalio
+import time 
+
+redled = digitalio.DigitalInOut(board.GP16)
+redled.direction = digitalio.Direction.OUTPUT
+greenled = digitalio.DigitalInOut(board.GP2)
+greenled.direction = digitalio.Direction.OUTPUT
+Counter = 10
+
+# Loops 10 times
+for x in range(10): 
+        Counter -= 1
+        redled.value = True
+        print(Counter)
+        time.sleep(1)
+        redled.value = False
+        time.sleep(1)
+# After turns green led on and prints "Launch"
+redled.value = False
+greenled.value = True
+print("Launch")
+```
+Same code as before cause I did both assignments at once 
 
 ### Reflection
 
