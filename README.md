@@ -16,9 +16,7 @@ The goal was to get a make a count down when you ran the code. The Countdown sta
 
 ### Evidence 
 
-### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
 
 ### Code
 
