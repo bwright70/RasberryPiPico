@@ -47,7 +47,7 @@ print("Launch")
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+Intially I used an if statement for this code instead of a for loop. I'm only sharing the final version of my doe because I switched to using a for loop later cause it makes everything else like leds and servos much easier. I also did two assignments at once which wasn't super hard but definently could have been tricky if I had tried to work the button in there as well. In general good to do one thing at a time. 
 
 &nbsp;
 
@@ -95,7 +95,7 @@ Same code as before cause I did both assignments at once
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+This is the exact same as the last assignment cause I did them at the same time. Not difficult but the wiring could be better. Also my syntax for variables could be better. I personally prefer the capatlize every word method but I was lazy and didn't do that so future variables look weird. redled should be RedLed. 
 
 &nbsp;
 
@@ -168,7 +168,7 @@ while True:
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+When I was first wiring the button I wired it into ground and 3v and every single time I pressed the button it short circuited my board. Not a major problem because it didn't deal any damage to my board, but defiently not a good idea. Getting the Abort() function working was tricky, but I figured out that If I put a check between each of the time.sleeps, no matter when I pressed the button, it would Abort. 
 
 &nbsp;
 
@@ -276,7 +276,7 @@ while True:
 
 ### Reflection
 
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
+The spicy section of this assignment was really tricky. My main problem was that while a time.sleep was active I couldn't do anything else, and so the pauses I had to make the countdown and flashing leds work was prohibitting the servo from running. Using my current method the servo would stop and start with the leds which wasn't what I wanted. So I redid alot of my code and ended up using the rate at which the computer processesc the code as a timer. Each loop of the for loop without interuptions is 0.033 seconds. 90 Loops adds to seconds and the other 7 are for the first 7 seconds. It definently a janky stupid method, but it does work. 
 
 &nbsp;
 
