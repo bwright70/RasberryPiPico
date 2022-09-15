@@ -280,6 +280,26 @@ The spicy section of this assignment was really tricky. My main problem was that
 
 &nbsp;
 
+## Crash Avoidance Part 1
+
+### Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+&nbsp;
+
+
 ## Onshape_Assignment_Template
 
 ### Assignment Description
