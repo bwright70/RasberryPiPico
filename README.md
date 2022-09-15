@@ -63,7 +63,7 @@ Now We add in an Led to the previous assignment. A Red led blinks with the count
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/47ebe8cb5ab559193084ec46f2547a5bf985e203/images/Wiring%201.HEIC)
 
 ### Code
 
@@ -111,7 +111,7 @@ We continue to build on the previous two assignments now with the introduction o
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/47ebe8cb5ab559193084ec46f2547a5bf985e203/images/Wiring%201.HEIC)
 
 ### Code
 
@@ -184,7 +184,7 @@ The final assignment is adding a servo that spins from 0 - 180 at launch. For ex
 
 ### Wiring
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/47ebe8cb5ab559193084ec46f2547a5bf985e203/images/Wiring%201.HEIC)
 
 ### Code
 ```
