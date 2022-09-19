@@ -3,7 +3,7 @@
 &nbsp;
 
 ## Table of Contents
-* [Launch Pad Part 1](#LaunchPadPart1)
+* [Launch Pad Part 1](#Launch-Pad-Part-1)
 * [Launch Pad Part 2](#LaunchPadPart2)
 * [Launch Pad Part 3](#LaunchPadPart3)
 * [Launch Pad Part 4](#LaunchPadPart4)
