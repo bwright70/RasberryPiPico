@@ -7,6 +7,9 @@
 * [Launch Pad Part 2](#Launch-Pad-Part-2)
 * [Launch Pad Part 3](#Launch-Pad-Part-3)
 * [Launch Pad Part 4](#Launch-Pad-Part-4)
+* [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
+* [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
+* [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -324,6 +327,7 @@ while True:
 
 ### Reflection
 
+There was no real goal to this assignment, more just learning how to use the accelerometer and f Strings which will prove very useful in the future. I need to remember to set variables values in the while True loop otherwise they won't update. Also to always save my code because otherwise nothing will work. 
 
 &nbsp;
 
