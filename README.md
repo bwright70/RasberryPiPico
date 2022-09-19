@@ -2,6 +2,12 @@
 
 &nbsp;
 
+## Table of Contents
+* [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
+* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
+
+&nbsp;
+
 ## Launch Pad Part 1 
 
 ### Description
@@ -275,6 +281,45 @@ The spicy section of this assignment was really tricky. My main problem was that
 &nbsp;
 
 ## Crash Avoidance Part 1
+
+### Description
+
+In this assignment we're learning the basics of the MPU6050. It measures its change in accelertaion and rotation using a gyroscope and an accelerometer 
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+&nbsp;
+
+## Crash Avoidance Part 2
+
+### Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+&nbsp;
+
+## Crash Avoidance Part 3
 
 ### Description
 
