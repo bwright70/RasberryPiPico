@@ -3,7 +3,10 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#LaunchPadPart1)
+* [Launch Pad Part 1](#LaunchPadPart1)
+* [Launch Pad Part 2](#LaunchPadPart2)
+* [Launch Pad Part 3](#LaunchPadPart3)
+* [Launch Pad Part 4](#LaunchPadPart4)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
