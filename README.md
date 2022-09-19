@@ -2,12 +2,6 @@
 
 &nbsp;
 
-## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
-* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
-
-&nbsp;
-
 ## Launch Pad Part 1 
 
 ### Description
