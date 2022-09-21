@@ -16,7 +16,8 @@ while True:
         x = mpu.acceleration[0] 
         y = mpu.acceleration[1] 
         z = mpu.acceleration[2] 
-        if x < 1:
+        if z < 1:
                 led.value = True
-                print(f"X = {x}") 
-        
+                print(f"Z = {z}") 
+        else: 
+                led.value = False 
