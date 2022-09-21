@@ -3,7 +3,13 @@
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#Raspberry_Pi_Assignment_Template)
+* [Launch Pad Part 1](#Launch-Pad-Part-1)
+* [Launch Pad Part 2](#Launch-Pad-Part-2)
+* [Launch Pad Part 3](#Launch-Pad-Part-3)
+* [Launch Pad Part 4](#Launch-Pad-Part-4)
+* [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
+* [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
+* [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -49,6 +55,9 @@ print("Launch")
 
 Intially I used an if statement for this code instead of a for loop. I'm only sharing the final version of my doe because I switched to using a for loop later cause it makes everything else like leds and servos much easier. I also did two assignments at once which wasn't super hard but definently could have been tricky if I had tried to work the button in there as well. In general good to do one thing at a time. 
 
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
 &nbsp;
 
 ## Launch Pad Part 2 
@@ -97,6 +106,9 @@ Same code as before cause I did both assignments at once
 
 This is the exact same as the last assignment cause I did them at the same time. Not difficult but the wiring could be better. Also my syntax for variables could be better. I personally prefer the capatlize every word method but I was lazy and didn't do that so future variables look weird. redled should be RedLed. 
 
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
 &nbsp;
 
 ## Launch Pad Part 3 
@@ -170,6 +182,9 @@ while True:
 
 When I was first wiring the button I wired it into ground and 3v and every single time I pressed the button it short circuited my board. Not a major problem because it didn't deal any damage to my board, but defiently not a good idea. Getting the Abort() function working was tricky, but I figured out that If I put a check between each of the time.sleeps, no matter when I pressed the button, it would Abort. 
 
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
 &nbsp;
 
 ## Launch Pad Part 4 
@@ -280,7 +295,58 @@ The spicy section of this assignment was really tricky. My main problem was that
 
 &nbsp;
 
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
 ## Crash Avoidance Part 1
+
+### Description
+
+In this assignment we're learning the basics of the MPU6050. It measures its change in accelertaion and rotation using a gyroscope and an accelerometer 
+
+### Evidence 
+
+<img src="images/Crash 1.gif" width="400" height="600" />
+
+### Wiring
+
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/main/images/Wiring%202.HEIC)
+
+### Code
+
+```
+#type: ignore 
+import digitalio
+import time  
+import board 
+import adafruit_mpu6050 
+import busio 
+
+led = digitalio.DigitalInOut(board.GP28)
+led.direction = digitalio.Direction.OUTPUT 
+sda_pin = board.GP16
+scl_pin = board.GP17
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c) 
+
+while True: 
+        x = mpu.acceleration[0] 
+        y = mpu.acceleration[1] 
+        z = mpu.acceleration[2] 
+        if x > 1:
+                print(f"X = {x}") 
+```
+
+### Reflection
+
+There was no real goal to this assignment, more just learning how to use the accelerometer and f Strings which will prove very useful in the future. I need to remember to set variables values in the while True loop otherwise they won't update. Also to always save my code because otherwise nothing will work. 
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Crash Avoidance Part 2
 
 ### Description
 
@@ -296,9 +362,31 @@ The spicy section of this assignment was really tricky. My main problem was that
 
 ### Reflection
 
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Crash Avoidance Part 3
+
+### Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
 
 &nbsp;
 
+[Back To Top](#Table-of-Contents)
+&nbsp;
 
 ## Onshape_Assignment_Template
 
