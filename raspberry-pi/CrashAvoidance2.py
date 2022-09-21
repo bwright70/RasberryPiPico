@@ -16,6 +16,9 @@ while True:
         x = mpu.acceleration[0] 
         y = mpu.acceleration[1] 
         z = mpu.acceleration[2] 
+        # When oriented up the Z acceleration will be about 9.81 m/s^2 which is acceleration due to gravity
+        # So the code just checks to see if its oriented anything but up 
+        # If it is it turns the led on and prints the Z acceleration 
         if z < 1:
                 led.value = True
                 print(f"Z = {z}") 
