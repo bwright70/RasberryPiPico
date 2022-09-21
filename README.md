@@ -10,6 +10,7 @@
 * [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
 * [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
 * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
+* [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
@@ -350,6 +351,59 @@ There was no real goal to this assignment, more just learning how to use the acc
 
 ### Description
 
+The goal of this assignment was to incorporate an led into our code by making it turn on when the board tilted too far, and to use a powerboost as a mobile power source so we could walk around with our board. 
+
+### Evidence 
+
+<img src="images/Crash 2.gif" width="400" height="600" />
+
+### Wiring
+
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/main/images/Wiring%202.HEIC)
+
+### Code
+
+```
+#type: ignore 
+import digitalio
+import time  
+import board 
+import adafruit_mpu6050 
+import busio 
+
+led = digitalio.DigitalInOut(board.GP28)
+led.direction = digitalio.Direction.OUTPUT 
+sda_pin = board.GP16
+scl_pin = board.GP17
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c) 
+
+while True: 
+        x = mpu.acceleration[0] 
+        y = mpu.acceleration[1] 
+        z = mpu.acceleration[2] 
+        # When oriented up the Z acceleration will be about 9.81 m/s^2 which is acceleration due to gravity
+        # So the code just checks to see if its oriented anything but up and if it is it turns the led on and prints the Z acceleration 
+        if z < 1:
+                led.value = True
+                print(f"Z = {z}") 
+        else: 
+                led.value = False 
+```
+
+### Reflection
+
+The main hiccup with this assignment was just remembering to charge the power boost before hand. Luckily I grabbed one that was already fully charged, but a lot of time could be spent waiting for it. I didn't have to modify my code much at all as I already had a system in place that worked really well for this assignment.  
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Crash Avoidance Part 3
+
+### Description
+
 
 ### Evidence 
 
@@ -367,7 +421,7 @@ There was no real goal to this assignment, more just learning how to use the acc
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
-## Crash Avoidance Part 3
+## Pico_Assignment_Template
 
 ### Description
 
