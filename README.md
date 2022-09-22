@@ -10,6 +10,7 @@
 * [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
 * [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
 * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
+* [Crash Avoidance Part 4](#Crash-Avoidance-Part-4) 
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -401,6 +402,88 @@ The main hiccup with this assignment was just remembering to charge the power bo
 &nbsp;
 
 ## Crash Avoidance Part 3
+
+### Description
+
+This assignment we're adding an LCD screen into the previous design. It needs to broadcast the X, Y, and Z values onto the screen, and do all the other things. 
+
+### Evidence 
+
+<img src="images/Crash 3.gif" width="400" height="600" />
+
+### Wiring
+
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/main/images/Wiring%203.HEIC)
+
+### Code
+
+```
+#type: ignore 
+import digitalio
+import time  
+import board 
+import adafruit_mpu6050 
+import busio 
+from adafruit_display_text import label
+import adafruit_displayio_ssd1306
+import terminalio
+import displayio
+displayio.release_displays() #put this line just below your imports
+
+
+led = digitalio.DigitalInOut(board.GP28)
+led.direction = digitalio.Direction.OUTPUT 
+sda_pin = board.GP16
+scl_pin = board.GP17
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
+display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP15)
+display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
+
+# Accelerometer Address is ['0x68']
+# LCD Screen Address is ['0x3d']
+
+
+
+while True: 
+        xa = round(mpu.acceleration[0], 3) 
+        ya = round(mpu.acceleration[1], 3) 
+        za = round(mpu.acceleration[2], 3) 
+        
+        # create the display group
+        splash = displayio.Group()
+
+        # add title block to display group
+        XAcceleration = (f"X = {xa}")
+        # the order of this command is (font, text, text color, and location)
+        text_area = label.Label(terminalio.FONT, text=XAcceleration, color=0xFFFF00, x=5, y=5)
+        splash.append(text_area)    
+
+        YAcceleration = (f"Y = {ya}")
+        text_area = label.Label(terminalio.FONT, text=YAcceleration, color=0xFFFF00, x=5, y=20)
+        splash.append(text_area)
+
+        ZAcceleration = (f"Y = {za}")
+        text_area = label.Label(terminalio.FONT, text=ZAcceleration, color=0xFFFF00, x=5, y=35)
+        splash.append(text_area)
+
+        display.show(splash)  
+        if za < 1:
+                led.value = True
+        else: 
+                led.value = False   
+```
+
+### Reflection
+
+Personally I did not like this assignment. It involved just copying a bunch of code so that the LCD Screen could work. Because of how the Accelerometer and LCD screen work, they can communicate through the same wire, but to do that you have to figure out the address of each of the things, which involves copying different code. Basically this assignment was a bunch of copying and not very interesting 
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Crash Avoidance Part 4
 
 ### Description
 
