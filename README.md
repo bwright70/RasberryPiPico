@@ -10,6 +10,7 @@
 * [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
 * [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
 * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
+* [Crash Avoidance Part 4](#Crash-Avoidance-Part-4) 
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -404,8 +405,17 @@ The main hiccup with this assignment was just remembering to charge the power bo
 
 ### Description
 
+This assignment we're adding an LCD screen into the previous design. It needs to broadcast the X, Y, and Z values onto the screen, and do all the other things. 
 
 ### Evidence 
+
+<img src="images/Crash 3.gif" width="400" height="600" />
+
+### Wiring
+
+[Wiring](https://github.com/bwright70/RasberryPiPico/blob/main/images/Wiring%203.HEIC)
+
+### Code
 
 ```
 #type: ignore 
@@ -463,6 +473,23 @@ while True:
         else: 
                 led.value = False   
 ```
+
+### Reflection
+
+Personally I did not like this assignment. It involved just copying a bunch of code so that the LCD Screen could work. Because of how the Accelerometer and LCD screen work, they can communicate through the same wire, but to do that you have to figure out the address of each of the things, which involves copying different code. Basically this assignment was a bunch of copying and not very interesting 
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Crash Avoidance Part 4
+
+### Description
+
+
+### Evidence 
+
 
 ### Wiring
 
