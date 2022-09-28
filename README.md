@@ -604,7 +604,7 @@ while True:
 
 ### Reflection
 
-This assignment came with a lot of unforseen difficultites. The actual coding part was too tricky I just ran the 
+This assignment came with a lot of unforseen difficultites. The actual coding part wasn't too tricky I just ran the [this code](https://github.com/bwright70/RasberryPiPico/blob/main/raspberry-pi/I2CAddress) and then added and if and if else statements so that the leds would turn on and off at the correct times. The real problem came from my Powercell which we used last assignment as a mobile power source. The Powercell suddenly decided to stop working, and so even though nothing looked wrong, when I plugged the Powercell in the code suddenly stopped working and kept throwing up and error saying that it was missing the address for the accelerometer. Even when I plugged it back into the computer, it still broke. The only way to fix it to comment then uncomment that part of the code. I ended up just stealing someone elses Powercell. The second problem was if else statements (written as elif) Apparently they don't work because even when my if statement was rinning the elif statement was still turning on the red led which isn't supposed to happen. I ended up just writing it like an if statement but left in the elif so that people could see what I intended. Lot of hardware and weird syntax issues, but nothing too crazy. 
 
 &nbsp;
 
