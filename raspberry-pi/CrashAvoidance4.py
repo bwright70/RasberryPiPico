@@ -28,6 +28,7 @@ sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 # LCD Screen Address is ['0x3d']
 # Altimeter Address is ['0x60']
 
+# This is the altitude when the code first runs and we use it to compare to the constatly updating altitude 
 setalt = sensor.altitude 
 
 while True: 
@@ -39,6 +40,8 @@ while True:
     # create the display group
     splash = displayio.Group()
     
+    # This checks to see if we're 3 meters above starting altitude
+    # If it is then it turns the green light on and updates the LCD Screen like normal 
     if alt > setalt + 3: 
         greenled.value = True 
 
@@ -61,7 +64,10 @@ while True:
         text_area = label.Label(terminalio.FONT, text=Altitude, color=0xFFFF00, x=5, y=50)
         splash.append(text_area)
         display.show(splash)  
-    elif za < 1:
+    # This checks to see if we're below the green light zone
+    # If we are AND we've tilted too far in any direction it turns the red warning light on 
+    elif za < 1 and alt < setalt + 3:
+        print("New")
         redled.value = True
 
         WARNING = ("WARNING")
@@ -69,6 +75,7 @@ while True:
         splash.append(text_area)
 
         display.show(splash)  
+    # This is just the normal loop if the other two loops aren't true 
     else: 
         redled.value = False   
         greenled.value = False
