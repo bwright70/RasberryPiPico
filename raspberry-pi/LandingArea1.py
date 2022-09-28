@@ -28,9 +28,15 @@ sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 # LCD Screen Address is ['0x3d']
 # Altimeter Address is ['0x60']
 
-# This is the altitude when the code first runs and we use it to compare to the constatly updating altitude 
 
-while True: 
-   
+try: 
+
+    cordinate1 = input("Type First Cordinate")
+
+
+except:  
+    pass
+
+
 
 
