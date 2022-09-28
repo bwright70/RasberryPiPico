@@ -491,7 +491,7 @@ This was an optional assignment that incorporates the Altimeter into the previou
 
 ### Evidence 
 
-
+<img src="images/Crash 4.gif" width="400" height="600" />
 
 ### Wiring
 
