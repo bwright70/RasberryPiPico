@@ -616,7 +616,7 @@ This assignment came with a lot of unforseen difficultites. The actual coding pa
 
 ### Description
 
-
+This assignment throws all the wiring out and has us do actual coding. The goal is to allow a user to input three cordinates in a X,Y format and it spits out the area for a triangle created by those three points. 
 
 ### Evidence 
 
@@ -661,7 +661,7 @@ while True:
 
 ### Reflection
 
-
+I remember why I don't like coding. We learned how to use the Input() function which waits until the user types something and then saves that info, the Split() function which splits a string into a list, and the Float() function which converts a sting into a float.  
 
 &nbsp;
 
