@@ -9,6 +9,11 @@ import adafruit_displayio_ssd1306
 import terminalio
 import displayio
 import adafruit_mpl3115a2
+from adafruit_display_shapes.triangle import Triangle
+from adafruit_display_shapes.line import Line
+from adafruit_display_shapes.circle import Circle
+
+
 displayio.release_displays() #put this line just below your imports
 
 
@@ -31,14 +36,29 @@ sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 # |(Ax(By - Cy) + Bx(Cy - Ay) + Cx(Ay - By) / 2| 
 
 def FindArea(AX,AY,BX,BY,CX,CY):
-        Area = abs((AX * (BY - CY) + BX * (CY - AY) + CX * (AY - BY)) / 2)
-        return Area
+    Area = abs((AX * (BY - CY) + BX * (CY - AY) + CX * (AY - BY)) / 2)
+    return Area
+
+def MakeTriangle():
+    splash = displayio.Group()
+    vline = Line(64,0,64,64, color=0xFFFF00)
+    splash.append(vline)
+    hline = Line(0,32,128,32, color=0xFFFF00)
+    splash.append(hline)
+    display.show(splash) 
 
 while True: 
     
-    splash = displayio.Group()
-    
     try: 
+        splash = displayio.Group()
+
+        # This allows the LCD screen to turn on 
+        #///////////////////////////////////////////////////////////////////////////////////
+        Hello = ("hello")
+        text_area = label.Label(terminalio.FONT, text=Hello, color=0xFFFF00, x=5, y=5)
+        splash.append(text_area) 
+        #//////////////////////////////////////////////////////////////////////////////////
+
         print("Type Cordinates in an X,Y Format")
         time.sleep(1)
         cordinate1 = input("Type First Cordinate: ")
@@ -54,8 +74,14 @@ while True:
         BY = float(B[1])
         CX = float(C[0])
         CY = float(C[1])
-        print(FindArea(AX,AY,BX,BY,CX,CY))
+        print(f"Area: {FindArea(AX,AY,BX,BY,CX,CY)}")
+        MakeTriangle() 
+        time.sleep(5)
 
     except:  
         print("Somethings Wrong")
+
+
+
+
 
