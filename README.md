@@ -620,7 +620,7 @@ This assignment throws all the wiring out and has us do actual coding. The goal 
 
 ### Evidence 
 
-
+<img src="images/Landing Area 1.gif" width="400" height="600" />
 
 ### Code
 
@@ -668,6 +668,51 @@ I remember why I don't like coding. We learned how to use the Input() function w
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
+## Landing Area Part 2 
+
+### Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Landing Area Part 3
+
+### Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
 
 ## Pico_Assignment_Template
 
