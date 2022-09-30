@@ -616,6 +616,62 @@ This assignment came with a lot of unforseen difficultites. The actual coding pa
 
 ### Description
 
+This assignment throws all the wiring out and has us do actual coding. The goal is to allow a user to input three cordinates in a X,Y format and it spits out the area for a triangle created by those three points. 
+
+### Evidence 
+
+<img src="images/Landing Area 1.gif" width="400" height="600" />
+
+### Code
+
+```
+#type: ignore 
+import time 
+
+# |(Ax(By - Cy) + Bx(Cy - Ay) + Cx(Ay - By) / 2| 
+
+def FindArea(AX,AY,BX,BY,CX,CY):
+        Area = abs((AX * (BY - CY) + BX * (CY - AY) + CX * (AY - BY)) / 2)
+        return Area
+
+while True: 
+    
+    try: 
+        print("Type Cordinates in an X,Y Format")
+        time.sleep(1)
+        cordinate1 = input("Type First Cordinate: ")
+        cordinate2 = input("Type Second Cordinate: ")
+        cordinate3 = input("Type Third Cordinate: ")
+        A = cordinate1.split(",")
+        B = cordinate2.split(",")
+        C = cordinate3.split(",")
+        time.sleep(1)
+        AX = float(A[0])
+        AY = float(A[1])
+        BX = float(B[0])
+        BY = float(B[1])
+        CX = float(C[0])
+        CY = float(C[1])
+        print(FindArea(AX,AY,BX,BY,CX,CY))
+
+    except:  
+        print("Somethings Wrong")
+
+```
+
+### Reflection
+
+I remember why I don't like coding. We learned how to use the Input() function which waits until the user types something and then saves that info, the Split() function which splits a string into a list, and the Float() function which converts a sting into a float.  
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Landing Area Part 2 
+
+### Description
+
 
 ### Evidence 
 
@@ -635,6 +691,28 @@ This assignment came with a lot of unforseen difficultites. The actual coding pa
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
+## Landing Area Part 3
+
+### Description
+
+
+### Evidence 
+
+
+### Wiring
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
 
 ## Pico_Assignment_Template
 
