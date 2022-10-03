@@ -39,17 +39,26 @@ def FindArea(AX,AY,BX,BY,CX,CY):
     Area = abs((AX * (BY - CY) + BX * (CY - AY) + CX * (AY - BY)) / 2)
     return Area
 
-def MakeTriangle():
+def MakeGraph(AX,AY,BX,BY,CX,CY):
+
     splash = displayio.Group()
+    # Make the Line Graph
     vline = Line(64,0,64,64, color=0xFFFF00)
     splash.append(vline)
     hline = Line(0,32,128,32, color=0xFFFF00)
     splash.append(hline)
+    # Make Origin
+    circle = Circle(64, 32, 1, outline=0xFFFF00)
+    splash.append(circle)
+    # Triangle 
+    triangle = Triangle(int(AX) + 64, 32 - int(AY), int(BX) + 64, 32 - int(BY), int(CX) + 64, 32 - int(CY), outline=0xFFFF00)
+    splash.append(triangle)
+
     display.show(splash) 
 
 while True: 
-    
-    try: 
+
+    try:
         splash = displayio.Group()
 
         # This allows the LCD screen to turn on 
@@ -75,11 +84,12 @@ while True:
         CX = float(C[0])
         CY = float(C[1])
         print(f"Area: {FindArea(AX,AY,BX,BY,CX,CY)}")
-        MakeTriangle() 
+        MakeGraph(AX,AY,BX,BY,CX,CY) 
         time.sleep(5)
-
-    except:  
+    
+    except:
         print("Somethings Wrong")
+
 
 
 
