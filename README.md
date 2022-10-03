@@ -12,6 +12,8 @@
 * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
 * [Crash Avoidance Part 4](#Crash-Avoidance-Part-4) 
 * [Landing Area Part 1](#Landing-Area-Part-1)
+* [Landing Area Part 2](#Landing-Area-Part-2)
+* [Landing Area Part 3](#Landing-Area-Part-3)
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
