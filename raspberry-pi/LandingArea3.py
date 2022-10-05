@@ -67,6 +67,7 @@ def MakeGraph(AX,AY,BX,BY,CX,CY):
     display.show(splash) 
 
 List = 0 
+BestTriangle = 10000000000000
 
 while True: 
 
@@ -91,10 +92,17 @@ while True:
             print(f"Area: {FindArea(AX,AY,BX,BY,CX,CY)}km2")                                                                            
             print(f"Center Distance is: {FindCenter(AX,AY,BX,BY,CX,CY)}km") 
             MakeGraph(AX,AY,BX,BY,CX,CY) 
+            if FindArea(AX,AY,BX,BY,CX,CY) > 100:
+                if FindCenter(AX,AY,BX,BY,CX,CY) < BestTriangle:
+                    BestTrangleCenter = FindCenter(AX,AY,BX,BY,CX,CY) 
+                    BestTriangleArea = FindArea(AX,AY,BX,BY,CX,CY) 
+                    BestTrianglePoints = Points[List]
+                    BestTriangleSite = List + 1 
+
             List = List + 1
             time.sleep(3)
         else:
-            print(f"The closest suitable landing area has vertices [28,-14, 60,-7, 54,18]. The area is 421.0 km2 and the centroid is 36.97km away from base.")
+            print(f"The closest suitable landing area is Site {BestTriangleSite} and has vertices {BestTrianglePoints}. The area is {BestTriangleArea}km2 and the centroid is {BestTrangleCenter}km away from base.")
             sys.exit() 
     
 
