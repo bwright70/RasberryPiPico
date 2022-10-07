@@ -15,14 +15,21 @@ MORSE_CODE = { 'A':'.-', 'B':'-...',
     '7':'--...', '8':'---..', '9':'----.',
     '0':'-----', ', ':'--..--', '.':'.-.-.-',
     '?':'..--..', '/':'-..-.', '-':'-....-',
-    '(':'-.--.', ')':'-.--.-'}
+    '(':'-.--.', ')':'-.--.-', ' ':'/'}
 
 while True:
     Message = input("Type English Message: ")
+    if Message == "-q": 
+        break
+    Message = Message.upper()
     Length = len(Message)
     print(Length)
-    time.sleep(5)
-    for Letter in Message
+    time.sleep(3)
+    NewMessage = ""
+    for Letter in Message:
+        Letter = MORSE_CODE[Letter]
+        NewMessage = NewMessage + Letter + " "
+    print(NewMessage)
         
 
 
