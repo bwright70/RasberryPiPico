@@ -14,6 +14,8 @@
 * [Landing Area Part 1](#Landing-Area-Part-1)
 * [Landing Area Part 2](#Landing-Area-Part-2)
 * [Landing Area Part 3](#Landing-Area-Part-3)
+* [Morse Code Part 1](#Morse-Code-Part-1)
+* [Morse Code Part 2](#Morse-Code-Part-2)
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -909,6 +911,46 @@ while True:
 ### Reflection
 
 This assignment was not actually that difficult though I did have to restart it because I didn't relize it had to be a loop and was manually entering corodinates. Biggest problems were figuring out how lists work and keeping the Best Triangle saved between loops. Turns out you can just make a massive variable to start out with then set it equal to something in the loop later. 
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Morse Code Part 1
+
+### Description
+
+
+### Evidence 
+
+
+### Code
+
+
+### Reflection
+
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Morse Code Part 2
+
+### Description
+
+
+### Evidence 
+
+
+### Code
+
+
+### Reflection
+
 
 
 &nbsp;
