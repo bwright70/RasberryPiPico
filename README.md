@@ -967,7 +967,7 @@ while True:
 
 ### Reflection
 
-
+Turns out you can loop through a string if your range is a string. So you can have a variable that adds to itself and translate into morse code. The directory was cool and I added to it to include spaces in english being "/" in morsecode as that was part of the assignment. This was mainly a logic puzzle that still doesn't fully make sense to me. 
 
 &nbsp;
 
