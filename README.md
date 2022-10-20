@@ -1058,6 +1058,94 @@ This assignment was actually really easy. It took me about 10 minutes and just a
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
+## Intro to Cad 4.1
+
+### Assignment Description
+
+This is the First Onshape Assignment. For this assignment we got into teams of two and each worked on a document together. I was student B and had the responcibiliy of making the Spinner. 
+
+### Part Link 
+
+[Link to Document](https://cvilleschools.onshape.com/documents/3aa312c08f145112890ad27c/w/8b2620cc6fde6f2649d3b2f0/e/9ebfc7450031491fc1528048)
+
+### Part Image
+
+<img src="images/Spinner and Prop.png" width="400" height="400" />
+
+### Reflection
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Intro to Cad 4.2
+
+### Assignment Description
+
+This is part 2 of the First Onshape Assignment. For this assignment we got into teams of two and each worked on a document together. I was Student B and had the responcibiliy of making the Prop. 
+
+### Part Link 
+
+[Link to Document](https://cvilleschools.onshape.com/documents/3aa312c08f145112890ad27c/w/8b2620cc6fde6f2649d3b2f0/e/9ebfc7450031491fc1528048)
+
+### Part Image
+
+<img src="images/Spinner and Prop (1).png" width="400" height="400" />
+
+### Reflection
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Intro to Cad 4.3
+
+### Assignment Description
+
+This is part 3 of the First Onshape Assignment. For this assignment we got into teams of two and each worked on a document together. This was the assembly part of the assignment and so me and my partner worked in the assembly to put together the different parts we made 
+
+### Part Link 
+
+[Link to Document](https://cvilleschools.onshape.com/documents/3aa312c08f145112890ad27c/w/8b2620cc6fde6f2649d3b2f0/e/9ebfc7450031491fc1528048)
+
+### Part Image
+
+<img src="images/Pull Copter.png" width="600" height="600" />
+
+### Reflection
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## Intro to Cad 4.4
+
+### Assignment Description
+
+This is part 4 of the First Onshape Assignment. For this assignment we got into teams of two and each worked on a document together. For this final section we learned how to version a document and then each made individual edits to the document. I changed the prop to make more aerodynamtic wings
+
+### Part Link 
+
+[Link to Document](https://cvilleschools.onshape.com/documents/3aa312c08f145112890ad27c/w/8b2620cc6fde6f2649d3b2f0/e/9ebfc7450031491fc1528048)
+
+### Part Image
+
+<img src="images/Spinner and Prop (2).png" width="600" height="600" />
+
+### Reflection
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
 ## Pico_Assignment_Template
 
 ### Description
