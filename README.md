@@ -16,6 +16,10 @@
 * [Landing Area Part 3](#Landing-Area-Part-3)
 * [Morse Code Part 1](#Morse-Code-Part-1)
 * [Morse Code Part 2](#Morse-Code-Part-2)
+* [Intro to Cad 4.1](#Intro-to-Cad-4.1)
+* [Intro to Cad 4.2](#Intro-to-Cad-4.2)
+* [Intro to Cad 4.3](#Intro-to-Cad-4.3)
+* [Intro to Cad 4.4](#Intro-to-Cad-4.4)
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
