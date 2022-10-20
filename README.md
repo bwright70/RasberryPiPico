@@ -16,10 +16,10 @@
 * [Landing Area Part 3](#Landing-Area-Part-3)
 * [Morse Code Part 1](#Morse-Code-Part-1)
 * [Morse Code Part 2](#Morse-Code-Part-2)
-* [Intro to Cad 4.1](#Intro-to-Cad-4.1)
-* [Intro to Cad 4.2](#Intro-to-Cad-4.2)
-* [Intro to Cad 4.3](#Intro-to-Cad-4.3)
-* [Intro to Cad 4.4](#Intro-to-Cad-4.4)
+* [Intro to Cad 4.1](#Intro-to-Cad-Part-1)
+* [Intro to Cad 4.2](#Intro-to-Cad-Part-2)
+* [Intro to Cad 4.3](#Intro-to-Cad-Part-3)
+* [Intro to Cad 4.4](#Intro-to-Cad-Part-4)
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -1062,7 +1062,7 @@ This assignment was actually really easy. It took me about 10 minutes and just a
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
-## Intro to Cad 4.1
+## Intro to Cad Part 1
 
 ### Assignment Description
 
@@ -1084,7 +1084,7 @@ This is the First Onshape Assignment. For this assignment we got into teams of t
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
-## Intro to Cad 4.2
+## Intro to Cad Part 2
 
 ### Assignment Description
 
@@ -1106,7 +1106,7 @@ This is part 2 of the First Onshape Assignment. For this assignment we got into 
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
-## Intro to Cad 4.3
+## Intro to Cad Part 3
 
 ### Assignment Description
 
@@ -1128,7 +1128,7 @@ This is part 3 of the First Onshape Assignment. For this assignment we got into 
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
-## Intro to Cad 4.4
+## Intro to Cad Part 4
 
 ### Assignment Description
 
