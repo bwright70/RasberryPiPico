@@ -1152,22 +1152,6 @@ This is part 4 of the First Onshape Assignment. For this assignment we got into 
 [Back To Top](#Table-of-Contents)
 &nbsp;
 
-## Intro to Cad Part 5
-
-### Assignment Description
-
-### Part Link 
-
-### Part Image
-
-### Reflection
-
-
-&nbsp;
-
-[Back To Top](#Table-of-Contents)
-&nbsp;
-
 ## Pico_Assignment_Template
 
 ### Description
