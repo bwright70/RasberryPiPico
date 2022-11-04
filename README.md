@@ -1166,6 +1166,7 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Part Image
 
+<img src="images/Beam Design 1.png" width="600" height="600" />
 
 ### Reflection
 
@@ -1182,6 +1183,8 @@ We learned what versions are. They're just different branches of a part, so you 
 ### Part Link 
 
 ### Part Image
+
+<img src="images/Beam Simulation.png" width="800" height="300" />
 
 
 ### Reflection
@@ -1200,6 +1203,7 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Part Image
 
+<img src="images/Beam Design 2.png" width="600" height="600" />
 
 ### Reflection
 
