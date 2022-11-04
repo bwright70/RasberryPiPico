@@ -21,6 +21,9 @@
 * [Intro to Cad 4.3](#Intro-to-Cad-Part-3)
 * [Intro to Cad 4.4](#Intro-to-Cad-Part-4)
 * [Intro to Cad 4.5](#Intro-to-Cad-Part-5)
+* [FEA Part 1](#FEA-Part-1)
+* [FEA Part 2](#FEA-Part-2)
+* [FEA Part 3](#FEA-Part-3)
 * [Pico_Assignment_Template](#Pico_Assignment_Template)
 * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
@@ -1079,7 +1082,7 @@ This is the First Onshape Assignment. For this assignment we got into teams of t
 
 ### Reflection
 
-In this assignment 
+In this assignment I learned how to use the helix tool, in context parts studios, and second end position to make the Spinner. I knew how to use most of these tools already but this was the first time we used them in an actual assignment. There were no major issues other than I didn't read the instructions properly the first time and so hadn't used a second end Position for my Extrude. 
 
 &nbsp;
 
@@ -1102,6 +1105,7 @@ This is part 2 of the First Onshape Assignment. For this assignment we got into 
 
 ### Reflection
 
+This time I had some weird issues with merge extrudes. I accidently made a new part instead of merging it with the old one and so when I tried to hollow it out it broke. Other than that no major issues. The way the prop was made around the spinner was super clever and I need to remember it for the future. 
 
 &nbsp;
 
@@ -1124,6 +1128,7 @@ This is part 3 of the First Onshape Assignment. For this assignment we got into 
 
 ### Reflection
 
+Probably the Easiest of all these assignment. We just put the four parts together and added a Rack and Pinion relation. I had already worked with these because of the robot arm last year so it wasn't too much trouble. 
 
 &nbsp;
 
@@ -1143,6 +1148,58 @@ This is part 4 of the First Onshape Assignment. For this assignment we got into 
 ### Part Image
 
 <img src="images/Spinner and Prop (2).png" width="600" height="600" />
+
+### Reflection
+
+We learned what versions are. They're just different branches of a part, so you can interate off a design without changing the main part. I don't like versions mainly because you can't delete a version once you've made it and the UI isn't super intuative. 
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## FEA Part 1
+
+### Assignment Description
+
+### Part Link 
+
+### Part Image
+
+
+### Reflection
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## FEA Part 2
+
+### Assignment Description
+
+### Part Link 
+
+### Part Image
+
+
+### Reflection
+
+
+&nbsp;
+
+[Back To Top](#Table-of-Contents)
+&nbsp;
+
+## FEA Part 3
+
+### Assignment Description
+
+### Part Link 
+
+### Part Image
+
 
 ### Reflection
 
