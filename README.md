@@ -80,6 +80,7 @@ Intially I used an if statement for this code instead of a for loop. I'm only sh
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Launch Pad Part 2 
@@ -131,6 +132,7 @@ This is the exact same as the last assignment cause I did them at the same time.
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Launch Pad Part 3 
@@ -207,6 +209,7 @@ When I was first wiring the button I wired it into ground and 3v and every singl
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Launch Pad Part 4 
@@ -318,6 +321,7 @@ The spicy section of this assignment was really tricky. My main problem was that
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Crash Avoidance Part 1
@@ -366,6 +370,7 @@ There was no real goal to this assignment, more just learning how to use the acc
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Crash Avoidance Part 2
@@ -419,6 +424,7 @@ The main hiccup with this assignment was just remembering to charge the power bo
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Crash Avoidance Part 3
@@ -501,6 +507,7 @@ Personally I did not like this assignment. It involved just copying a bunch of c
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Crash Avoidance Part 4
@@ -629,6 +636,7 @@ This assignment came with a lot of unforseen difficultites. The actual coding pa
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Landing Area Part 1
@@ -685,6 +693,7 @@ I remember why I don't like coding. We learned how to use the Input() function w
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Landing Area Part 2 
@@ -800,6 +809,7 @@ Nothing much new for this assignment. I copied some code that makes a triangle, 
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Landing Area Part 3
@@ -931,6 +941,7 @@ This assignment was not actually that difficult though I did have to restart it 
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Morse Code Part 1
@@ -987,6 +998,7 @@ Turns out you can loop through a string if your range is a string. So you can ha
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Morse Code Part 2
@@ -1071,6 +1083,7 @@ This assignment was actually really easy. It took me about 10 minutes and just a
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Intro to Cad Part 1
@@ -1094,6 +1107,7 @@ In this assignment I learned how to use the helix tool, in context parts studios
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Intro to Cad Part 2
@@ -1117,6 +1131,7 @@ This time I had some weird issues with merge extrudes. I accidently made a new p
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Intro to Cad Part 3
@@ -1140,6 +1155,7 @@ Probably the Easiest of all these assignment. We just put the four parts togethe
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Intro to Cad Part 4
@@ -1163,6 +1179,7 @@ We learned what versions are. They're just different branches of a part, so you 
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## FEA Part 1
@@ -1186,6 +1203,7 @@ Me and my partner went for a triangle heavy design. we added triangles to the wa
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## FEA Part 2
@@ -1205,6 +1223,7 @@ Unfortunently our simulation was kinda broken. The displacement was very broken 
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## FEA Part 3
@@ -1228,6 +1247,7 @@ Our biggest stress points were the outside trianges. We added a few extra suppor
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Pico_Assignment_Template
@@ -1251,6 +1271,7 @@ Our biggest stress points were the outside trianges. We added a few extra suppor
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
 
 ## Onshape_Assignment_Template
@@ -1274,4 +1295,5 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 &nbsp;
 
 [Back To Top](#Table-of-Contents)
+
 &nbsp;
