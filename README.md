@@ -3,35 +3,36 @@
 &nbsp;
 
 ## Table of Contents
-* [Launch Pad Part 1](#Launch-Pad-Part-1)
-* [Launch Pad Part 2](#Launch-Pad-Part-2)
-* [Launch Pad Part 3](#Launch-Pad-Part-3)
-* [Launch Pad Part 4](#Launch-Pad-Part-4)
-&nbsp;
-* [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
-* [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
-* [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
-* [Crash Avoidance Part 4](#Crash-Avoidance-Part-4) 
-&nbsp;
-* [Landing Area Part 1](#Landing-Area-Part-1)
-* [Landing Area Part 2](#Landing-Area-Part-2)
-* [Landing Area Part 3](#Landing-Area-Part-3)
-&nbsp;
-* [Morse Code Part 1](#Morse-Code-Part-1)
-* [Morse Code Part 2](#Morse-Code-Part-2)
-&nbsp;
-* [Intro to Cad 4.1](#Intro-to-Cad-Part-1)
-* [Intro to Cad 4.2](#Intro-to-Cad-Part-2)
-* [Intro to Cad 4.3](#Intro-to-Cad-Part-3)
-* [Intro to Cad 4.4](#Intro-to-Cad-Part-4)
-* [Intro to Cad 4.5](#Intro-to-Cad-Part-5)
-&nbsp;
-* [FEA Part 1](#FEA-Part-1)
-* [FEA Part 2](#FEA-Part-2)
-* [FEA Part 3](#FEA-Part-3)
-&nbsp;
-* [Pico_Assignment_Template](#Pico_Assignment_Template)
-* [Onshape_Assignment_Template](#Onshape_Assignment_Template)
+* Launch Pad
+  * [Launch Pad Part 1](#Launch-Pad-Part-1)
+  * [Launch Pad Part 2](#Launch-Pad-Part-2)
+  * [Launch Pad Part 3](#Launch-Pad-Part-3)
+  * [Launch Pad Part 4](#Launch-Pad-Part-4)
+* Crash Avoidance
+  * [Crash Avoidance Part 1](#Crash-Avoidance-Part-1) 
+  * [Crash Avoidance Part 2](#Crash-Avoidance-Part-2) 
+  * [Crash Avoidance Part 3](#Crash-Avoidance-Part-3) 
+  * [Crash Avoidance Part 4](#Crash-Avoidance-Part-4) 
+* Landing Area
+  * [Landing Area Part 1](#Landing-Area-Part-1)
+  * [Landing Area Part 2](#Landing-Area-Part-2)
+  * [Landing Area Part 3](#Landing-Area-Part-3)
+* Morse Code
+  * [Morse Code Part 1](#Morse-Code-Part-1)
+  * [Morse Code Part 2](#Morse-Code-Part-2)
+* Intro to Cad
+  * [Intro to Cad 1](#Intro-to-Cad-Part-1)
+  * [Intro to Cad 2](#Intro-to-Cad-Part-2)
+  * [Intro to Cad 3](#Intro-to-Cad-Part-3)
+  * [Intro to Cad 4](#Intro-to-Cad-Part-4)
+  * [Intro to Cad 5](#Intro-to-Cad-Part-5)
+* FEA Beam Design
+  * [FEA Part 1](#FEA-Part-1)
+  * [FEA Part 2](#FEA-Part-2)
+  * [FEA Part 3](#FEA-Part-3)
+* Templates
+  * [Pico_Assignment_Template](#Pico_Assignment_Template)
+  * [Onshape_Assignment_Template](#Onshape_Assignment_Template)
 
 &nbsp;
 
