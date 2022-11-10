@@ -1162,7 +1162,11 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Assignment Description
 
+We're making beams to see how much weight they can hold. The restrictions are that there can't be any over hangs, all angles must be greater than 45 degrees, the beam can't weigh more than 13 grams, and the end of the beam had to be at least 180mm away from the other end. 
+
 ### Part Link 
+
+[Link to Document](https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=636d0f1d37b6be47af1f6439)
 
 ### Part Image
 
@@ -1170,6 +1174,7 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Reflection
 
+Me and my partner went for a triangle heavy design. we added triangles to the walls and a lattice to the floor. We also wanted as close to a roof as possible but extruding everything up added too much weight, so we added triangles to it as well. The goal was for the interior to renforce the exterior at it's stress points and vice versa. 
 
 &nbsp;
 
@@ -1180,15 +1185,15 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Assignment Description
 
-### Part Link 
+We get to learn about how to use an onshape simulation. It shows the displacement and stress points of our design. We just download the sti and then drop it into the website and it does it all for us. 
 
 ### Part Image
 
 <img src="images/Beam Simulation.png" width="800" height="300" />
 
-
 ### Reflection
 
+Unfortunently our simulation was kinda broken. The displacement was very broken cause we had to turn off some settings so that the website would work. It ended up misleading us as to how effective our design actually was. 
 
 &nbsp;
 
@@ -1199,7 +1204,11 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Assignment Description
 
+We're redesigning based off the simulation. Checking stress points and adding renforcements where nessisary. 
+
 ### Part Link 
+
+[Link to Document](https://cvilleschools.onshape.com/documents/b0642ff49d8db9b862992a16/w/256263874c5873489822cbff/e/eb74407b2954334966743e40?renderMode=0&uiState=636d0f1d37b6be47af1f6439)
 
 ### Part Image
 
@@ -1207,6 +1216,7 @@ We learned what versions are. They're just different branches of a part, so you 
 
 ### Reflection
 
+Our biggest stress points were the outside trianges. We added a few extra supports to help it not break. When we ran the simulation again it said everything was perfectly fine. 
 
 &nbsp;
 
